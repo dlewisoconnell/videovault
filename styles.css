@@ -1,0 +1,96 @@
+body {
+    background: black;
+    background-image: url(backgroundtest3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    min-width: 320;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    flex-direction: column; 
+}
+
+
+.shelf {
+    background: black;
+    background-image: url(backgroundtest3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    padding-top: 0%;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    flex-direction: column;
+}
+
+.menu {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.genre {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    height: 75px;
+}
+
+.vault {
+background-color: black;
+display: flex;
+padding: 0%;
+align-items: center;
+flex-direction: row;
+width: 100%;
+flex-wrap: wrap;
+}
+
+.one {
+    background-color: red;
+    padding: 0%; 
+    width: 33.3%;
+    height: 144px;
+}
+
+.two { 
+    background-color: white;
+    color: red;
+    padding: 0%;
+    width: 33.3%;
+    height: 144px;
+}
+
+.three {
+    background-color: blue;   
+    padding: 0%;
+    width: 33.3%; 
+    height: 144px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    margin: 50%;
+
+}
