@@ -1,40 +1,46 @@
 body {
     background: black;
-    background-image: url(backgroundtest3.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
     width: 100%;
-    min-width: 320;
     margin: 0;
     padding: 0;
     display: flex;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     flex-direction: column; 
+    align-items: center;
 }
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    color: red;
+  }
 
 
 .shelf {
-    background: black;
-    background-image: url(backgroundtest3.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width: 250px;
+    max-width: 250px;
     margin: 0;
     padding: 0;
-    padding-top: 0%;
-    display: flex;
-    align-self: center;
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    flex-direction: column;
+    
 }
 
 .menu {
-    background-color: grey;
+    background-color: rgb(30,30,30);
+    position: sticky;
+    top: 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -45,7 +51,32 @@ body {
     
 }
 
-.genre {
+.menuBottom {
+    background-color: rgb(0,0,0);
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+    width: 100%;
+    
+}
+
+.menuBottom > .menuBottomBack {
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: nowrap;
+    width: 100%;
+    }
+
+.menuBottom > .menuBottomNextMovie {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+    .genre {
     background-color: purple;
     display: flex;
     flex-direction: column;
@@ -53,44 +84,99 @@ body {
     width: 100%;
     padding: 0;
     text-align: center;
+    justify-content: center;
     height: 75px;
 }
 
-.vault {
-background-color: black;
+.shuffle {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    height: 75px;
+}
+
+.display {
 display: flex;
-padding: 0%;
-align-items: center;
-flex-direction: row;
-width: 100%;
 flex-wrap: wrap;
-}
+padding-top: 0;
+margin: 0;
 
-.one {
-    background-color: red;
-    padding: 0%; 
-    width: 33.3%;
-    height: 144px;
-}
-
-.two { 
-    background-color: white;
-    color: red;
-    padding: 0%;
-    width: 33.3%;
-    height: 144px;
-}
-
-.three {
-    background-color: blue;   
-    padding: 0%;
-    width: 33.3%; 
-    height: 144px;
 }
 
 .square {
     display: flex;
     justify-content: center;
-    margin: 50%;
+    text-align: center;
+    padding-top: 14%;
+    height: 110px;
+}
 
+.one {
+    background-color: red;
+    width: 25%;
+
+
+}
+
+.two { 
+    background-color: black;
+    width: 25%;
+}
+
+.three { 
+    background-color: white;
+    color: black;
+    width: 25%;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height:  70px;
+    margin: 0;
+    margin-bottom: 12px;
+    padding-top: 200px;
+    background-image: url("movies/images/header2_small.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: red;
+    font-weight: bold;
+    align-content: center;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-self: center;
+    padding: 0;
+    max-width: 500px;
+
+}
+
+.article > .articlecontent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(30,30,30);
+    align-items: center;
+    text-decoration: solid;
+}
+
+.h1 {
+    font-size:larger;
 }

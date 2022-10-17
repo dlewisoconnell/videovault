@@ -1,0 +1,17 @@
+           
+           
+            <img src="/images/' + currentGenre.name + '/03.jpg"></></div></div><div class="one">
+            <div class="square"><img src="/images/' + currentGenre.name + '/04.jpg"></></div></div><div class="two">
+            <div class="square"><img src="/images/' + currentGenre.name + '/05.jpg"></></div></div><div class="three">
+            <div class="square"><img src="/images/' + currentGenre.name + '/06.jpg"></></div></div><div class="one">
+            <div class="square"><img src="/images/' + currentGenre.name + '/07.jpg"></></div></div><div class="two">
+            <div class="square"><img src="/images/' + currentGenre.name + '/08.jpg"></></div></div><div class="three">
+            <div class="square"><img src="/images/' + currentGenre.name + '/09.jpg"></></div></div><div class="one">
+            <div class="square"><img src="/images/' + currentGenre.name + '/10.jpg'"></></div></div><div class="two">
+            <div class="square"><img src="/images/' + currentGenre.name + '/11.jpg"></></div></div><div class="three">
+            <div class="square"><img src="/images/' + currentGenre.name + '/12.jpg"></></div></div><div class="one">
+            <div class="square"><img src="/images/' + currentGenre.name + '/13.jpg'"></></div></div><div class="two">
+            <div class="square">'<img src="/images/' + currentGenre.name + '/14.jpg"></></div></div><div class="three">
+            <div class="square">'<img src="/images/' + currentGenre.name + '/15.jpg"></></div></div><div class="one">
+            <div class="square">'<img src="/images/' + currentGenre.name + '/16.jpg"></></div></div></>
+            '}'
