@@ -76,29 +76,29 @@ a:link {
     width: 100%;
 }
 
-    .genre {
+ .genre {
     background-color: purple;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
     padding: 0;
     text-align: center;
     justify-content: center;
     height: 75px;
 }
 
-.shuffle {
-    background-color: purple;
+.genreButtons {
+
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
     padding: 0;
     text-align: center;
-    justify-content: center;
-    height: 75px;
+    justify-content: space-between;
+
 }
+
+
 
 .display {
 display: flex;
@@ -112,27 +112,15 @@ margin: 0;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 14%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    ;
     height: 110px;
 }
 
 .one {
-    background-color: red;
-    width: 25%;
-
-
-}
-
-.two { 
-    background-color: black;
-    width: 25%;
-}
-
-.three { 
-    background-color: white;
-    color: black;
-    width: 25%;
-
+    padding: 5px;
+    padding-top: 20px;
 }
 
 .content {
@@ -177,6 +165,3 @@ margin: 0;
     text-decoration: solid;
 }
 
-.h1 {
-    font-size:larger;
-}

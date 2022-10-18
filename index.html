@@ -15,9 +15,13 @@
   <body>
     <div class="menu">MENU</div>
   <div class="shelf">
-      <div class="genre">
-      <button id="shuffle">SHUFFLE</button></div>
-      <div class="display"><space id="tapes"></span>
+      <div class="genre"><div class="genreButtons">
+        
+        <button onclick="getNewIndexAndRender('prev')"><<</button>
+        <div id="genreName"></div>
+        <button onclick="getNewIndexAndRender('next')">>></button>
+      </div></div>
+      <div class="display"><div id="result"></div>
 
 
 

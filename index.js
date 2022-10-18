@@ -1,25 +1,46 @@
-function genre(name){
-    this.name = name;
+const resultBox = document.getElementById('result')
+const genres = ["HORROR", "KAIJU", "SCI-FI", "WRESTLING"];
+const length = genres.length;
+
+const getNextIdx = (idx = 0, length, direction) => {
+   switch (direction) {
+     case 'next': return (idx + 1) % length;
+     case 'prev': return (idx == 0) && length - 1 || idx - 1;
+     default:     return idx;
+   }
 }
 
-var collection = [
-    new genre('HORROR'),
-    new genre('KAIJU'),
-    new genre('SCI-FI'),
-    new genre('WRESTLING'),
+let idx; 
+const getNewIndexAndRender = (direction) => {
+     idx = getNextIdx(idx, length, direction);
+     result.innerHTML = '<div class="square"><div class="one"><img src="/movies/images/' 
+     + genres[idx] + 
+     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     + genres[idx] + 
+     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     + genres[idx] + 
+     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     + genres[idx] + 
+     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     + genres[idx] + 
+     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     + genres[idx] + 
+     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     + genres[idx] + 
+     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     + genres[idx] + 
+     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     + genres[idx] + 
+     '/01.png" width=70px></div></div>'
 
-];
+     document.getElementById("genreName").innerHTML = '<h1>' + genres[idx] + '</h1>';
 
-function getRandom(num) {
-    var randomNumber = Math.floor(Math.random() * num);
-    return randomNumber;
-};
 
-document.getElementById("shuffle").onclick
-= function(){
 
-    var index = getRandom(3);
-    var currentGenre = collection[index]
+}
 
-document.getElementById("tapes").innerHTML = '<img src="/movies/images/' + currentGenre.name + '/01.png">'};
+
+
+
+getNewIndexAndRender();
 
