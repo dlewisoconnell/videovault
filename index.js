@@ -1,5 +1,5 @@
 const resultBox = document.getElementById('result')
-const genres = ["HORROR", "KAIJU", "SCI-FI", "WRESTLING"];
+const genres = ["HORROR", "KAIJU", "MUSIC", "SCI-FI", "WRESTLING", "FAMILY"];
 const length = genres.length;
 
 const getNextIdx = (idx = 0, length, direction) => {
@@ -13,34 +13,32 @@ const getNextIdx = (idx = 0, length, direction) => {
 let idx; 
 const getNewIndexAndRender = (direction) => {
      idx = getNextIdx(idx, length, direction);
-     result.innerHTML = '<div class="square"><div class="one"><img src="/movies/images/' 
+     result.innerHTML = '<div class="square"><div class="one"><a href="/movies/' 
+     + genres[idx] + '/01.html"><img src="/movies/' 
      + genres[idx] + 
-     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     '/small/01.png" width=70px></a></div><div class="one"><img src="/movies/' 
      + genres[idx] + 
-     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     '/small/01.png" width=70px></div><div class="one"><img src="/movies/' 
      + genres[idx] + 
-     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     '/small/01.png" width=70px></div><div class="one"><img src="/movies/' 
      + genres[idx] + 
-     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     '/small/01.png" width=70px></div><div class="one"><img src="/movies/' 
      + genres[idx] + 
-     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     '/small/01.png" width=70px></div><div class="one"><img src="/movies/' 
      + genres[idx] + 
-     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     '/small/01.png" width=70px></div><div class="one"><img src="/movies/' 
      + genres[idx] + 
-     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     '/small/01.png" width=70px></div><div class="one"><img src="/movies/' 
      + genres[idx] + 
-     '/01.png" width=70px></div><div class="one"><img src="/movies/images/' 
+     '/small/01.png" width=70px></div><div class="one"><img src="/movies/' 
      + genres[idx] + 
-     '/01.png" width=70px></div></div>'
+     '/small/01.png" width=70px></div></div>'
 
      document.getElementById("genreName").innerHTML = '<h1>' + genres[idx] + '</h1>';
 
 
 
 }
-
-
-
 
 getNewIndexAndRender();
 
