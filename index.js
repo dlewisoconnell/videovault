@@ -41,4 +41,3 @@ const getNewIndexAndRender = (direction) => {
 }
 
 getNewIndexAndRender();
-
