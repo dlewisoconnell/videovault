@@ -1,5 +1,5 @@
 body {
-    background-color: #00542D;
+    background-color: black;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -163,7 +163,8 @@ li {
     background-image: linear-gradient(rgb(30,30,30), #000000);
     width: 768px;
     justify-content: center;
-
+    align-content: bottom;
+    margin-bottom: 0;
 }
 
 
@@ -288,6 +289,7 @@ align-content: center;
     text-align: center;
     justify-content: center;
     height: 75px;
+    width: 250px;
 
 
 }
@@ -364,20 +366,25 @@ margin: 0;
 
  }
 
-.header {
+ .header {
     display: flex;
     width: 100%;
+    max-width: 768px;
     justify-content: center;
+    align-items: center;
     margin: 0;
     margin-bottom: 0px;
     padding-top: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    color: red;
     font-weight: bold;
-    align-content: center;
+    background-color: #00542D;
+    
     
 }
+
+
+
 
 @media screen and (max-width: 1024px){   
     .header{      
