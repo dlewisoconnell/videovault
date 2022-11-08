@@ -40,11 +40,15 @@ a:visited {
     text-decoration: none;
 }
 
-   
+.ul2 {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 li {
     list-style: none;
-    display: inline-block;
-    
     
    }
 
@@ -345,7 +349,6 @@ margin: 0;
 .square {
     display: flex;
     justify-content: center;
-    text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
     height: 110px;
