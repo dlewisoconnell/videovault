@@ -300,6 +300,7 @@ align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0;
+    margin-top: 7px;
     text-align: center;
     justify-content: space-between;
     align-content: center;
@@ -347,7 +348,7 @@ margin: 0;
     flex-direction: row;
     flex-wrap: wrap;
     height: 110px;
-    filter: drop-shadow(3px -1px 2.5px black);
+    filter: drop-shadow(3px 0px 2.5px black);
 }
 
 .one {
