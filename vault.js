@@ -1,5 +1,5 @@
 const result = document.getElementById('result')
-const genres = [ "FAMILY", "HORROR", "KAIJU", "MUSIC", "SCI-FI", "SPORTS"];
+const genres = [ "FAMILY", "HORROR", "KAIJU", "MUSIC", "SCI-FI", "MISC"];
 const length = genres.length;
 
 const getNextIdx = (idx = 0, length, direction) => {

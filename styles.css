@@ -504,6 +504,7 @@ margin: 0;
     width: 75%;
     align-items: center;
     border-radius: 10px;
+ 
 }
 
 .articlecontent > .contact {
@@ -522,14 +523,20 @@ margin: 0;
 
 
 
-.articlecontent > .aboutText {
+.aboutText {
     display: flex;
     flex-direction: row;
-    padding: 10px;
-    background-color: grey;
-    width: 320px;
-    margin: 2%;
+
+
 }
+
+ .aboutImg {
+    border-radius: 10px;
+    margin-right: 10px;
+
+}
+
+
 
 .clicker {
     display: flex;
@@ -628,3 +635,4 @@ textarea {
     flex-direction: column;
     width: 300px;
     height: 250px;
+}
