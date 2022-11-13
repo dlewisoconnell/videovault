@@ -486,7 +486,7 @@ margin: 0;
 
 }
 
-.articlecontent > .intro {
+.intro {
     display: flex;
     padding: 5%;
     padding-top: 0;
@@ -496,18 +496,8 @@ margin: 0;
 
 }
 
-.articlecontent > .about {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    background-color: rgb(99, 99, 99);
-    width: 75%;
-    align-items: center;
-    border-radius: 10px;
- 
-}
 
-.articlecontent > .contact {
+.contact {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -520,20 +510,38 @@ margin: 0;
 }
 
 
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgb(99, 99, 99);
+    width: 75%;
+    border-radius: 10px;
+    justify-content: center;
+
+}
 
 
 
 .aboutText {
     display: flex;
-    flex-direction: row;
-
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 300px;
+    justify-content: center;
+    padding: 2.5%;
 
 }
 
  .aboutImg {
-    border-radius: 10px;
-    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 2.5%;
+    
 
+    
 }
 
 
