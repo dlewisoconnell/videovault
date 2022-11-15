@@ -509,7 +509,7 @@ margin: 0;
     padding: 10px;
     background-color: rgb(99, 99, 99);
     width: 75%;
-    border-radius: 10%;
+    border-radius: 10px;
     justify-content: center;
 
 }
@@ -531,7 +531,7 @@ margin: 0;
     flex-direction: column;
     margin: 0;
     padding: 2.5%;
-    border-radius: 10%;
+    border-radius: 10px;
         
 }
 
