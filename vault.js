@@ -42,10 +42,7 @@ const getNewIndexAndRender = (direction) => {
      + genres[idx] + 
      '/small/09.jpg" width=70px alt="Video 9"></a></li></ul></div>'
 
-     document.getElementById("genreName").innerHTML = '<h1>' + genres[idx] + '</h1>';
-
-
-
+     document.getElementById("genreName").innerHTML = '<img src="images/' + genres[idx] + '.png" alt="' + genres[idx] + '">';
 }
 
 getNewIndexAndRender();
