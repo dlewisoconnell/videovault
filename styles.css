@@ -308,7 +308,7 @@ align-content: center;
     justify-content: center;
     align-self: center;
     height: 75px;
-    width: 255px;
+    width: 250px;
 
 
 }
@@ -332,7 +332,7 @@ align-content: center;
     border-color: white;
     text-align: center;
     text-decoration: none;
-    height: 79px;
+    height: 75px;
     margin: 0;
 
     
@@ -365,12 +365,12 @@ margin: 0;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 110px;
     filter: drop-shadow(3px 0px 2.5px black);
 }
 
 .one {
     padding: 5px;
+    padding-top: 8px;
     padding-bottom: 20px;
     
 
