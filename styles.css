@@ -172,7 +172,7 @@ li {
     background-image: url("movies/header2_large.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: 55px;
+    
  } 
 
 
@@ -370,8 +370,8 @@ margin: 0;
 
 .one {
     padding: 5px;
-    padding-top: 8px;
-    padding-bottom: 20px;
+    padding-top: 9px;
+    padding-bottom: 15px;
     
 
 }
@@ -392,7 +392,7 @@ margin: 0;
     align-items: center;
     margin: 0;
     margin-bottom: 0px;
-    padding-top: 300px;
+    padding-top: 260px;
     background-repeat: no-repeat;
     background-position: center;
     font-weight: bold;
@@ -580,7 +580,7 @@ margin: 0;
         background-position-y: 100%;
         width: 40px;
         height: 40px;
-        margin-top: 360px;
+        margin-top: 10px;
         margin-bottom: 10px;
         cursor: pointer;
             }
