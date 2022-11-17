@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Contact | Virtual Video Vault</title>
+    <title>Virtual Video Vault</title>
 
-    <link href="../../styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
    
   </head>
 
@@ -17,12 +17,12 @@
       <div class="menu">
         <li class="main">
           <div class="menulogo">
-            <div class="menulogobg"><img src="/menu.png"></div>
+            <div class="menulogobg"><img src="images/menu.png"></div>
               <ul class="dropdown">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/vault.html">The Vault</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vault.html">The Vault</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="https://videovault.bigcartel.com/">Store</a></li>
               </ul>
            </div>
@@ -33,10 +33,10 @@
 
    <div class="header">
       <ul class="desktopMenu">
-        <li><a href="/index.html"><button class="desktopButton" role="button">Home</button></a></li>
-        <li><a href="/vault.html"><button class="desktopButton" role="button">The Vault</button></a></li>
-        <li><a href="/about.html"><button class="desktopButton" role="button">About</button></a></li>
-        <li><a href="/contact.html"><button class="desktopButton" role="button">Contact</button></a></li>
+        <li><a href="index.html"><button class="desktopButton" role="button">Home</button></a></li>
+        <li><a href="vault.html"><button class="desktopButton" role="button">The Vault</button></a></li>
+        <li><a href="about.html"><button class="desktopButton" role="button">About</button></a></li>
+        <li><a href="contact.html"><button class="desktopButton" role="button">Contact</button></a></li>
         <li><a href="https://videovault.bigcartel.com/"><button class="desktopButton" role="button">Store</button></a></li>
       </ul>
     </div>
@@ -44,50 +44,34 @@
     <div class="content">
       <div class="article">
         <div class="articlecontent">
+
          <div class="movieTitle">
             <h1>CONTACT</h1>
+         </div> 
+
+         <div class="contact">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="5e94402f-08fb-416f-8dbb-0033cdaefbab">
+              NAME<BR><input type="text" name="name" required><p>
+              EMAIL<BR><input type="email" name="email" required><p>
+              MESSAGE<BR><textarea name="message" ></textarea><p>
+             <input type="hidden" name="redirect" value="https://web3forms.com/success">
+             <button type="submit">Submit</button>
+            </form>
          </div>
-  
           
-  
-            
-            <div class="contact">
-                <form action="https://api.web3forms.com/submit" method="POST">
-        
-                    <input type="hidden" name="access_key" value="5e94402f-08fb-416f-8dbb-0033cdaefbab">
-                
-                   NAME<BR><input type="text" name="name" required><p>
-                   EMAIL<BR><input type="email" name="email" required><p>
-                   MESSAGE<BR><textarea name="message" ></textarea><p>
-                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
-                
-                    <button type="submit">Submit</button>
-                    
-                
-                </form>
-            </div>
-            <div class="email"> <h1><img src="email.png"></h1></div>
-          
-  
-  
-          
+         <div class="email">
+           <h1><img src="images/email.png"></h1>
+         </div>   
+
           <div class="menuBottom">
-          <div class="menuBottomBack"><a href="/../../index.html">
-            &nbsp;</div></a>
-        </div>
-  
+            <div class="menuBottomBack">
+             &nbsp;
             </div>
-              
-          
-          </div></div>
+         </div>
          
+     </div>
+   </div>       
 
-        
-        
-
-
-        
-
-    </body>
-    </html>
-    </html>
+  </body>
+</html>

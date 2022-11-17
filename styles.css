@@ -14,7 +14,7 @@ body {
 }
 
 .background {
-    background-image: url("vhsshelf.png");
+    background-image: url("images/vhsshelf.png");
     background-position-x: center;
     background-position-y: 0;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ li {
    @media screen and (max-width: 767px){   
 
     .header{      
-        background-image: url("movies/header2_small.png");
+        background-image: url("images/header_small.png");
         background-repeat: no-repeat;
         background-position: center;
         background-position-y: 45px;
@@ -86,7 +86,7 @@ li {
    }
 
    .menu li:hover {
-    background-image: url("static.jpg");
+    background-image: url("images/static.jpg");
     background-color: grey;
     padding: 10px 14px;
     
@@ -172,7 +172,7 @@ li {
 }
 
 .header{      
-    background-image: url("movies/header2_large.png");
+    background-image: url("images/header_large.png");
     background-repeat: no-repeat;
     background-position: center;
     
@@ -186,34 +186,35 @@ li {
     justify-content: center;
     align-content: bottom;
     margin-bottom: 0;
+    padding-left: 0;
 }
 
 
 .desktopButton {
-   display: flex;
+    display: flex;
     flex-direction: row;
-background-image: url("menudesktop.png");
-background-color: grey;
-   border-width: 0;
-  color: #fff;
-  cursor: pointer;
-  font-size: 18px;
-  margin: 10px;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-  padding-left: 5px;
-  padding-right: 5px;
-  align-items: center;
-  justify-content: center;
-align-content: center;
+    background-image: url("images/menudesktop.png");
+    background-color: grey;
+    border-width: 0;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 
 }
 
 .desktopButton:hover {
   display: flex;
   flex-direction: row;
-background-image: url("static.jpg");
+background-image: url("images/static.jpg");
 background-color: grey;
  border-width: 0;
 color: #fff;
@@ -282,7 +283,7 @@ align-content: center;
 
 
     .menuBottomBack:hover {
-        background-image: url("static.jpg");
+        background-image: url("images/static.jpg");
         cursor: pointer;
         
     }
@@ -295,7 +296,7 @@ align-content: center;
 }
 
 .menuBottomNextMovie:hover {
-    background-image: url("static.jpg");
+    background-image: url("images/static.jpg");
     cursor: pointer;
     
     }
@@ -578,7 +579,7 @@ margin: 0;
 
     .buttonHome{
         display: flex;
-        background-image: url("home.png");
+        background-image: url("images/home.png");
         background-repeat: no-repeat;
         background-position-y: 100%;
         width: 40px;
@@ -599,7 +600,7 @@ margin: 0;
 
 .buttonVault{
      display: flex;
-     background-image: url("vault.png");
+     background-image: url("images/vault.png");
      background-repeat: no-repeat;
      background-size: 150px;
      height: 150px;
