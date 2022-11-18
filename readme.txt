@@ -3,8 +3,8 @@ My final project for Code Louisville's Web Dev 1 class is called the Virtual Vid
 Required features include:
 - Responsive CSS menu
 - PageSpeed Insight Performance: 100, 98 on the "vault"
-- Menus in tables, titles in headers, alt tags for images to increase accessibility, changed font size to em from px to make zoomable
-- Transform CSS animation on main page
+- Menus in tables, titles in headers, alt tags for images to increase accessibility, changed font size to em from px 
+- Transform CSS animation on main page and individual content pages
 - Javascript array on "Vault" page 
 
 Feel free to email for any questions and concerns: dlewisoconnell@gmail.com
