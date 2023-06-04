@@ -1,11 +1,28 @@
-My final project for Code Louisville's Web Dev 1 class is called the Virtual Video Vault. I incorporate html, css and javascript to create a responsive layout with mobile and desktop media queries on the main pages and full headers, footers and body sections. The layouts are designed using flexbox. On the "Vault" page I used a javascript array to display images of various vhs tapes organized by genre. The images on the vault are aligned to look good on mobile first, with an expanded view for desktop. Every page created to be easily accessible. 
+# Virtual Video Vault Website
 
-Required features include:
-- Responsive CSS menu
-- PageSpeed Insight Performance: 100, 98 on the "vault"
-- Menus in lists, titles in headers, alt tags for images to increase accessibility, changed font size to em from px, changed syntax to better be found easier by screen readers as suggested by accessibility check
-- Transform CSS animation on main page and individual content pages
-- Javascript array on "Vault" page 
+Virtual Video Vault is a tribute to local video rental stores of the past. It incorporates HTML, CSS, and JavaScript to create a responsive layout with mobile and desktop media queries. The main pages feature full headers, footers, and body sections, designed using flexbox.
 
-Feel free to email for any questions and concerns: dlewisoconnell@gmail.com
+## Features
+
+- Responsive layout with media queries for mobile and desktop devices.
+- Full headers, footers, and body sections for a consistent design.
+- Flexbox for creating flexible and responsive layouts.
+- "Vault" page showcasing images of various VHS tapes organized by genre.
+- JavaScript array used to display and categorize the images.
+- Mobile-first design with an expanded view for desktop.
+- Responsive CSS menu for easy navigation.
+- PageSpeed Insight Performance score of 100, 98 on the "vault" page.
+- Enhanced accessibility through the use of menus, headers, alt tags for images, and optimized syntax.
+- Transformed CSS animations on the main page and individual content pages for a dynamic user experience.
+
+## Usage
+
+To access the Virtual Video Vault website:
+
+1. Open the website URL in a web browser.
+2. Navigate through the different pages using the responsive CSS menu.
+3. Explore the "Vault" page to view images of VHS tapes organized by genre.
+4. Enjoy the responsive layout and optimized performance on mobile and desktop devices.
+5. Interact with the transformed CSS animations on the main page and individual content pages.
+6. Benefit from enhanced accessibility with menus, headers, alt tags for images, and optimized syntax.
 
